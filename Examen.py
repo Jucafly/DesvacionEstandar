@@ -25,7 +25,8 @@ def DesviacionEstandar(datos,media):
 
 #Aqui Empieza el Codigo
 if __name__ == "__main__":
-    numeros = [186,699,132,272,291,331,199,1890,788,1601]
+    #numeros = [160,591,114,229,230,270,128,1657,624,1503]
+    numeros = [15,69.9,6.5,22.4,28.4,65.9,19.4,198.7,38.8,138.2]
 
     media = CalculoMedia(numeros)
 
