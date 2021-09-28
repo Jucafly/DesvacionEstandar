@@ -4,6 +4,7 @@ from math import sqrt
 #Juan Carlos Valdez Flores
 #Examen Medio Curso
 
+#Media
 def CalculoMedia(datos):
     adicion = 0
 
@@ -12,6 +13,7 @@ def CalculoMedia(datos):
 
     return adicion / len(datos)
 
+#Desviacion Estandar
 def DesviacionEstandar(datos,media):
     adicion = 0
     for dato in datos:
@@ -21,7 +23,7 @@ def DesviacionEstandar(datos,media):
 
     return sqrt(fraccion)
 
-
+#Aqui Empieza el Codigo
 if __name__ == "__main__":
     numeros = [186,699,132,272,291,331,199,1890,788,1601]
 
